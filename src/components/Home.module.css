@@ -1,0 +1,133 @@
+body {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  background: linear-gradient( to left, rgb(188, 142, 168) 25%, rgb(224, 78, 176) 60%, rgb(102, 38, 154) 85%, rgb(36, 33, 79) 75%);
+
+}
+.container {
+ background-color: rgb(77, 40, 125);
+}
+
+.main_container {
+ height: 100%;
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ align-items: center;
+ justify-content: space-between;
+}
+
+.main_container_left {
+  margin-top: 40px;
+  margin-left: 50%;
+}
+
+.main_container_left p {
+ margin-left: -65px;
+ width: 140%;
+ color: rgb(37, 6, 114);
+}
+
+
+.main_container_right {
+position: absolute;
+left: 65%;
+}
+
+
+.main_container_right img {
+  height: 750px;
+  width: 540px;
+  
+}
+
+.btn {
+  margin-top: 10%;
+}
+
+.btn_lg {
+  border: 2px solid rgb(183, 131, 231);
+  border-radius: 22px;
+  width: 8px;
+  padding: 10px 10px;
+  background-color: blueviolet;
+  text-decoration: none;
+  color: rgb(37, 6, 114);
+}
+
+.btn_lg:hover {
+  color: rgb(212, 85, 11);
+}
+
+/* blog information */
+.blog_info {
+  display: inline-block;
+  margin-right: 40%;
+}
+
+.blog_info p {
+  position: absolute;
+  top: 120%;
+  border: 3px solid rgb(17, 17, 87);
+  font-size: 22px;
+  margin-left: 10%;
+  padding: 10px 10px;
+  width: 30%;
+}
+
+.p_text i {
+  position: absolute;
+  top: 120%;
+  left: 25%;
+  font-size: 260%;
+  color: rgb(17, 17, 87);
+}
+
+.ecliptic {
+  margin-top: 45%;
+  margin-left: 18%;
+}
+
+.ecliptic_container {
+  display: inline-block;
+}
+
+.ecliptic_red {
+  position: relative;
+  top: 20px;
+  left: 180%;
+  margin-bottom: 30px;
+}
+
+.girl_container {
+  position: relative;
+  display: inline-block;
+}
+
+.girlie {
+  position: relative;
+  bottom: 10px;
+  left: 156%;
+  height: 70%;
+  width: 70%;
+}
+
+
+svg {
+  position: relative;
+  right: 20%;
+  margin: 0;
+  width: 225%;
+  color:rgb(118, 39, 117);
+  overflow: hidden;
+}
+
+
+/* .girlie {
+  display: inline-block;
+} */
+
+/* .slight_line {
+  width: 110px;
+  height: 20px;
+} */

@@ -1,0 +1,42 @@
+.logo {
+  height: 65px;
+  width: 70px;
+  margin-top: 20px;
+}
+
+header {
+  border: 3px solid rgb(50, 17, 141);
+  background-color: rgb(111, 36, 181);
+}
+
+ul  {
+  display: flex;
+  align-items: center;
+  width: 10%;
+  margin-left: auto; 
+}
+
+li {
+  display: flex;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 40%;
+  width: 10%;
+  margin-top: 20px;
+}
+
+
+.link {
+  margin-top: 30px;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 22px;
+  color:rgb(37, 6, 114);
+} 
+
+.link:hover {
+ color: rgb(212, 85, 11);
+} 
