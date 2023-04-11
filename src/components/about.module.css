@@ -8,13 +8,43 @@
 
 .about_container h1 {
   display: inline-block;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Crimson Text', serif;
   margin-top: 17px;
   font-size: 32px;
   color:rgb(31, 17, 46);
 }
 
+/* arrow functionality */
 
+.arrow {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  color:rgb(236, 165, 12);
+  animation: bounce 1s ease-in-out infinite;
+  height: 40px;
+  width: 40px;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(5);
+  }
+  40% {
+    transform: translateY(-25px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+.about_container p {
+  font-family: 'Crimson Text', serif;
+  font-size: 18px;
+  width: 40%;
+  margin: auto;
+  border-bottom: 1px solid rgb(42, 10, 158);
+}
 
 
  #dangle {
@@ -26,7 +56,7 @@
   object-fit: cover;
   width: 60%;
   height:60%;
-  box-shadow: 7px 5px 5px 7px rgb(21, 15, 2);
+  box-shadow: 7px 5px 5px 7px rgb(127, 13, 22);
 }
 
 .project img:hover {

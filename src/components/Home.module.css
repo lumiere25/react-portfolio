@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Cormorant+Infant:wght@300&family=Crimson+Text&family=Inter:wght@200&family=Manrope&family=Montserrat:wght@100&family=Playfair+Display+SC:ital@0;1&family=Roboto:wght@100;400&family=Shantell+Sans:wght@300&display=swap');
+
 body {
   box-sizing: border-box;
   margin:0;
@@ -5,6 +7,7 @@ body {
   background: linear-gradient( to left, rgb(188, 142, 168) 25%, rgb(224, 78, 176) 60%, rgb(102, 38, 154) 85%, rgb(36, 33, 79) 75%);
 
 }
+
 .container {
  background-color: rgb(77, 40, 125);
 }
@@ -18,11 +21,14 @@ body {
 }
 
 .main_container_left {
+  font-family: 'Crimson Text', serif;
   margin-top: 40px;
   margin-left: 50%;
 }
 
 .main_container_left p {
+ font-family: 'Crimson Text', serif;
+ font-size: 19px;
  margin-left: -65px;
  width: 140%;
  color: rgb(37, 6, 114);
@@ -66,18 +72,19 @@ left: 65%;
 }
 
 .blog_info p {
+  font-family: 'Crimson Text', serif;
   position: absolute;
-  top: 120%;
+  top: 140%;
   border: 3px solid rgb(17, 17, 87);
   font-size: 22px;
-  margin-left: 10%;
+  margin-left: 17%;
   padding: 10px 10px;
   width: 30%;
 }
 
 .p_text i {
   position: absolute;
-  top: 120%;
+  top: 140%;
   left: 25%;
   font-size: 260%;
   color: rgb(17, 17, 87);
@@ -112,16 +119,88 @@ left: 65%;
   width: 70%;
 }
 
+/* left */
 
-svg {
+.desc_container {
   position: relative;
-  right: 20%;
-  margin: 0;
-  width: 225%;
-  color:rgb(118, 39, 117);
-  overflow: hidden;
+  top: 60px;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 70%; 
+  opacity: 10;
+  transform: translateY(60%);
+  transition: all 0.8s ease-out;
 }
 
+/* animating the container */
+
+.desc_container.animate {
+  opacity: 3;
+  transform: translateY(10%);
+}
+
+.desc_left {
+  position: absolute;
+  font-family: 'Crimson Text', serif;
+  font-size: 19px;
+  color:rgb(65, 18, 73);
+  width: 100%;
+  bottom: 232px;
+  left: 14%;
+}
+
+/* right */
+
+.desc2_container {
+  position: relative;
+  left: 110%;
+  font-family: 'Crimson Text', serif;
+  border: 2px solid rgb(46, 41, 125);
+  font-size: 18px;
+  color:   rgb(37, 6, 114);
+ 
+}
+
+.desc2_left_container {
+  position: absolute;
+  right: 140%;
+}
+
+.desc_right {
+  position: absolute;
+
+}
+
+
+.mail_us_container {
+  position: relative;
+  right: 128%;
+  bottom: 90px;
+}
+
+.mail_us h2 {
+  font-family:'Crimson Text', serif;
+}
+
+.i_envelope {
+  font-size: 60px;
+  cursor: pointer;
+}
+
+.i_envelope:hover {
+  animation: shake 1s infinite linear;
+}
+
+@keyframes shake {
+  17%
+  {
+    transform: translate(10px, 0px);
+  }
+  22% 
+  {
+    transform: translate(10px, 10px);
+  }
+}
 
 /* .girlie {
   display: inline-block;

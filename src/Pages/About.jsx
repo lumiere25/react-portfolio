@@ -1,18 +1,26 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import styles from "../components/about.module.css";
 import art from "../components/img/art.jpg";
-import colorsp from "../components/img/colorsp.jpg";
 import design from "../components/img/design.jpg";
 import florals from "../components/img/florals.jpg";
 import mountain from "../components/img/mountain.jpg";
 import paint from "../components/img/paint.jpg";
 import coffees from "../components/img/coffees.jpg";
+import back from "../components/img/back.png";
+
 
 const About = () => {
   return (
     <>
     <div className={styles.about_container}>
    <h1>What We Do</h1>  
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ipsam, velit adipisci eos ullam veritatis, dolorum quidem aut doloribus vel hic laudantium ratione amet officiis odit unde sunt deserunt recusandae.</p>
+   </div>
+   <div className={styles.backContainer}>
+   <Link to="/home">
+   <img className={styles.arrow} src={back} alt=""/>
+   </Link>
    </div>
 
 <div className={styles.project_grid}>

@@ -5,9 +5,21 @@ import woman from "../components/img/woman.png";
 import eclipse from "../components/img/Ellipse.png";
 import newEclipse from "../components/img/Ellipsered.png";
 import girl from "../components/img/girl.png";
+import girl2 from "../components/img/girl2.png";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import Card from "../components/Cards/cards";
+
+
+
+
+
 
 
 const Home = () => {
+
+ 
+  <Card />
   return (
     <>
     <div className={Styles.container}></div>
@@ -26,8 +38,19 @@ const Home = () => {
       <div className="transparent__image">
       <img src={woman} alt="Happy lady" />
      </div>
+     {/* Contact us by mail */}
+     <div className={Styles.mail_us_container}>
+      <div className={Styles.mail_us} >
+       <h2>Contact Us Today:</h2>
+       <Link to="/contact">
+       <FontAwesomeIcon className={Styles.i_envelope}icon={faEnvelope} />
+       </Link>
+      </div>
+     </div>
     </div>
   </div>
+  { /* blogs section */ }
+
   <div className={Styles.blog_info}>
      <img className={Styles.ecliptic}src={eclipse} alt="" />
      <div className={Styles.p_text}>
@@ -40,11 +63,23 @@ const Home = () => {
      <div className={Styles.girl_container}>
      <img className={Styles.girlie} src={girl} alt="girl"/>
      </div>
-     <div className={Styles.waves_container}>
-     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-  <path fill="currentColor" fill-opacity="1" d="M0,32L60,80C120,128,240,224,360,245.3C480,267,600,213,720,181.3C840,149,960,139,1080,160C1200,181,1320,235,1380,261.3L1440,288L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
- </svg>
-     </div>
+     { /* Website Description */}
+     <div className={Styles.desc_container}>
+     <div className={Styles.desc_left}>
+      <h1>We love having fun</h1>
+     <span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio accusamus iusto facilis voluptas harum natus, a nulla, reprehenderit alias minima ab assumenda iste ea eius unde totam quia. Fuga quae, voluptas corrupti veritatis maiores, ratione dolores nam dicta asperiores consectetur alias labore quam ab debi</span>
+      </div>
+      <div className={Styles.desc2_container}>
+      <div className={Styles.desc_right}>
+     <h1>Delight the little ones</h1>
+    <span>We do the building for you, while you take advantage of your downtime we will do the work!
+    Your child will be kept entertained with our interactive play centre, designed to target your child's developmental needs, honing on and expanding their motor skills, targeting the mind through imaginative play and learning social skills! </span>
+       </div>
+       <div className={Styles.desc2_left_container}>
+        <img src={girl2} alt="girly"/>
+         </div>
+       </div>
+      </div>
     </div>
   </>
   )
