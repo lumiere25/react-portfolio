@@ -1,19 +1,17 @@
 import React from 'react'
 import Styles from "../components/Home.module.css";
+import Services from "../components/Services/services";
 import { Link } from "react-router-dom";
 import woman from "../components/img/woman.png";
 import eclipse from "../components/img/Ellipse.png";
 import newEclipse from "../components/img/Ellipsered.png";
 import girl from "../components/img/girl.png";
 import girl2 from "../components/img/girl2.png";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
+import { faClock } from '@fortawesome/free-regular-svg-icons';
+import { faAddressBook } from '@fortawesome/free-regular-svg-icons';
+import { faBell } from '@fortawesome/free-regular-svg-icons';
 import Card from "../components/Cards/cards";
-
-
-
-
-
 
 
 const Home = () => {
@@ -38,15 +36,6 @@ const Home = () => {
       <div className="transparent__image">
       <img src={woman} alt="Happy lady" />
      </div>
-     {/* Contact us by mail */}
-     <div className={Styles.mail_us_container}>
-      <div className={Styles.mail_us} >
-       <h2>Contact Us Today:</h2>
-       <Link to="/contact">
-       <FontAwesomeIcon className={Styles.i_envelope}icon={faEnvelope} />
-       </Link>
-      </div>
-     </div>
     </div>
   </div>
   { /* blogs section */ }
@@ -57,12 +46,15 @@ const Home = () => {
      <i className="fas fa-quote-left"></i>
      <p>Coming here was the greatest descision I have made to this day"</p>
      </div>
+     
      <div className={Styles.ecliptic_container}>
      <img className={Styles.ecliptic_red} src={newEclipse} alt="ecliptic"/>
      </div>
      <div className={Styles.girl_container}>
      <img className={Styles.girlie} src={girl} alt="girl"/>
      </div>
+
+
      { /* Website Description */}
      <div className={Styles.desc_container}>
      <div className={Styles.desc_left}>
@@ -80,6 +72,37 @@ const Home = () => {
          </div>
        </div>
       </div>
+      <div className={Styles.mail_us_container}>
+      <div className={Styles.mail_us} >
+       <h2>Contact Us Today:</h2>
+       <Link to="/contact">
+       <button className={Styles.btn_contact}>Visit our Contact Page</button>
+       </Link>
+      </div>
+     </div>
+
+     <div className={Styles.services_section}>
+     <Services 
+     icon={faEnvelope}
+     description="lorem ipsum pipsum plum flut scit jada lada cada bing boom"
+     
+     />
+     <Services 
+     icon={faClock}
+     description="lorem ipsum pipsum plum flut scit jada lada cada bing boom"
+     
+     />
+     <Services 
+     icon={faAddressBook}
+     description="lorem ipsum pipsum plum flut scit jada lada cada bing boom"
+     
+     />
+     <Services 
+     icon={faBell}
+     description="lorem ipsum pipsum plum flut scit jada lada cada bing boom"
+     
+     />
+     </div>
     </div>
   </>
   )

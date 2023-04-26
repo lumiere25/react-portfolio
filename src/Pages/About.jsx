@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+
 import styles from "../components/about.module.css";
+import Gallery from "../components/Gallery/gallery";
 import art from "../components/img/art.jpg";
 import design from "../components/img/design.jpg";
 import florals from "../components/img/florals.jpg";
@@ -8,6 +10,7 @@ import mountain from "../components/img/mountain.jpg";
 import paint from "../components/img/paint.jpg";
 import coffees from "../components/img/coffees.jpg";
 import back from "../components/img/back.png";
+
 
 
 const About = () => {
@@ -23,44 +26,32 @@ const About = () => {
    </Link>
    </div>
 
-<div className={styles.project_grid}>
-  <div className={styles.project} id="dangle">
-  <img src={art} alt="art"/>
-  <div className={styles.text}>
-  <p>"Something for everyone, connecting people together, one moment at a time."</p>
-  </div>
-  </div>
-  <div className={styles.project} id="spot">
-  <img src={coffees} alt="coffees"/>
-  <div className={styles.text}>
-  <p>"Leaving all behind, we journey to new frontiers of discovery, on and on"</p>
-  </div>
-  </div>
-  <div className={styles.project} id="loaf">
-  <img src={florals} alt="florals"/>
-  <div className={styles.text}>
-  <p>"Let art be your guide , the strokes of a brush brings all together"</p>
-  </div>
-  </div>
-  <div className={styles.project} id="test">
-  <img src={design} alt="design"/>
-  <div className={styles.text}>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, suscipit.</p>
-  </div>
-  </div>
-  <div className={styles.project} id="springer">
-  <img src={mountain} alt="mountain photography"/>
-  <div className={styles.text}>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, suscipit.</p>
-  </div>
-  </div>
-  <div className={styles.project} id="fruit">
-  <img src={paint} alt="paint"/>
-  <div className={styles.text}>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, suscipit.</p>
-  </div>
-  </div>
-  </div>
+   <div className={styles.project_grid}>
+    <Gallery
+    img={art}
+    text="Something for everyone, connecting people together, one moment at a time."
+    />
+    <Gallery
+    img={florals}
+    text="Something for everyone, connecting people together, one moment at a time."
+    />
+    <Gallery
+    img={coffees}
+    text="Something for everyone, connecting people together, one moment at a time."
+    />
+    <Gallery
+    img={design}
+    text="Something for everyone, connecting people together, one moment at a time."
+    />
+    <Gallery
+    img={paint}
+    text="Something for everyone, connecting people together, one moment at a time."
+    />
+    <Gallery
+    img={mountain}
+    text="Something for everyone, connecting people together, one moment at a time."
+    />
+</div>
 </>
   )
 }

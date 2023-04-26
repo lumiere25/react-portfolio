@@ -173,34 +173,29 @@ left: 65%;
 
 
 .mail_us_container {
-  position: relative;
-  right: 128%;
-  bottom: 90px;
+  border: 3px solid rgb(115, 37, 133);
+  width: 100%;
+  padding: 20px 10px ;
+  position: absolute;  
+  left: 0%;
+  top: 274%;
+  background-color: rgb(220, 209, 87);
+}
+
+.btn_contact {
+  padding: 10px 10px;
+  border: 2px solid red;
+  border-radius: 12px;
+  background-color: blueviolet;
+  color:aliceblue;
 }
 
 .mail_us h2 {
   font-family:'Crimson Text', serif;
+  color:rgb(49, 18, 78);
 }
 
-.i_envelope {
-  font-size: 60px;
-  cursor: pointer;
-}
 
-.i_envelope:hover {
-  animation: shake 1s infinite linear;
-}
-
-@keyframes shake {
-  17%
-  {
-    transform: translate(10px, 0px);
-  }
-  22% 
-  {
-    transform: translate(10px, 10px);
-  }
-}
 
 /* .girlie {
   display: inline-block;
