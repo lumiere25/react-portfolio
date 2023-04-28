@@ -1,16 +1,19 @@
 import React from 'react'
 import Styles from "../components/Home.module.css";
+import Style from "../components/Services/services.module.css";
 import Services from "../components/Services/services";
+import ServiceDescription from '../components/Services/serviceDescription';
 import { Link } from "react-router-dom";
 import woman from "../components/img/woman.png";
+import desk from "../components/img/desk2.png";
 import eclipse from "../components/img/Ellipse.png";
 import newEclipse from "../components/img/Ellipsered.png";
+import AddressBook from "../components/img/addressbook.png";
+import Clock from "../components/img/clock.png";
+import Envelope from "../components/img/envelope.png";
+import Bell from "../components/img/notification.png";
 import girl from "../components/img/girl.png";
 import girl2 from "../components/img/girl2.png";
-import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
-import { faClock } from '@fortawesome/free-regular-svg-icons';
-import { faAddressBook } from '@fortawesome/free-regular-svg-icons';
-import { faBell } from '@fortawesome/free-regular-svg-icons';
 import Card from "../components/Cards/cards";
 
 
@@ -35,6 +38,9 @@ const Home = () => {
      <div className={Styles.main_container_right}>
       <div className="transparent__image">
       <img src={woman} alt="Happy lady" />
+      <div className={Styles.desk_img}>
+      <img className={Styles.desk}src={desk} alt=""/>
+      </div>
      </div>
     </div>
   </div>
@@ -81,25 +87,31 @@ const Home = () => {
       </div>
      </div>
 
-     <div className={Styles.services_section}>
+     <div className={Styles.wrapper}>
+     <ServiceDescription 
+     desc="Our Services That We Offer To You"
+     />   
+     </div>
+    
+     <div className={Style.services_container}>
      <Services 
-     icon={faEnvelope}
-     description="lorem ipsum pipsum plum flut scit jada lada cada bing boom"
+     img={Envelope}
+     description="Got questions? Mail us!"
      
      />
      <Services 
-     icon={faClock}
-     description="lorem ipsum pipsum plum flut scit jada lada cada bing boom"
+     img={Clock}
+     description="We are open 5 days a week from 9:am to 7:30pm"
      
      />
      <Services 
-     icon={faAddressBook}
-     description="lorem ipsum pipsum plum flut scit jada lada cada bing boom"
+     img={AddressBook}
+     description="Write us a query!"
      
      />
      <Services 
-     icon={faBell}
-     description="lorem ipsum pipsum plum flut scit jada lada cada bing boom"
+     img={Bell}
+     description="Sign up and get weekly updates"
      
      />
      </div>

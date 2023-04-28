@@ -1,14 +1,14 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 
-import styles from "../components/about.module.css";
+import styles from "../components/Gallery/gallery.module.css";
 import Gallery from "../components/Gallery/gallery";
-import art from "../components/img/art.jpg";
-import design from "../components/img/design.jpg";
-import florals from "../components/img/florals.jpg";
-import mountain from "../components/img/mountain.jpg";
+import interactive from "../components/img/interactive.jpg";
+import creative from "../components/img/creative.jpg";
+import butterfly from "../components/img/butterfly.jpg";
+import showtime from "../components/img/showtime.jpg";
 import paint from "../components/img/paint.jpg";
-import coffees from "../components/img/coffees.jpg";
+import reading from "../components/img/reading.jpg";
 import back from "../components/img/back.png";
 
 
@@ -28,19 +28,19 @@ const About = () => {
 
    <div className={styles.project_grid}>
     <Gallery
-    img={art}
+    img={interactive}
+    text="Play, explore, Have fun and learn! This is our motto, and we believe will be your child's motto too!"
+    />
+    <Gallery
+    img={butterfly}
     text="Something for everyone, connecting people together, one moment at a time."
     />
     <Gallery
-    img={florals}
-    text="Something for everyone, connecting people together, one moment at a time."
+    img={showtime}
+    text="Kids will get their creative spark and showcase their creations on Show Your Spark days."
     />
     <Gallery
-    img={coffees}
-    text="Something for everyone, connecting people together, one moment at a time."
-    />
-    <Gallery
-    img={design}
+    img={creative}
     text="Something for everyone, connecting people together, one moment at a time."
     />
     <Gallery
@@ -48,7 +48,7 @@ const About = () => {
     text="Something for everyone, connecting people together, one moment at a time."
     />
     <Gallery
-    img={mountain}
+    img={reading}
     text="Something for everyone, connecting people together, one moment at a time."
     />
 </div>

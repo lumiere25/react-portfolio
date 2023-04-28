@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../about.module.css";
+import styles from "./gallery.module.css";
 
 const Gallery = (props) => {
  return (

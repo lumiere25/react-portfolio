@@ -47,6 +47,16 @@ left: 65%;
   
 }
 
+.desk_img img {
+  position: absolute;
+  right: 10px;
+  top: 75%;
+  height: 60%;
+  width: 110%;
+  border-bottom: 3px solid rgb(94, 69, 69);
+ 
+}
+
 .btn {
   margin-top: 10%;
 }
@@ -145,7 +155,7 @@ left: 65%;
   font-size: 19px;
   color:rgb(65, 18, 73);
   width: 100%;
-  bottom: 232px;
+  bottom: 279px;
   left: 14%;
 }
 
@@ -178,7 +188,7 @@ left: 65%;
   padding: 20px 10px ;
   position: absolute;  
   left: 0%;
-  top: 274%;
+  top: 293%;
   background-color: rgb(220, 209, 87);
 }
 
