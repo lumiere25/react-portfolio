@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import './App.css';
+import Styles from "./components/ScrollToTop/scroll.module.css";
 // import "./LandingPage/Home.module.css";
 // import Spinner from "./components/loadingSpinner/Spinner";
 import Header from "./components/navigation/Header";
@@ -7,8 +8,11 @@ import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Wave from "./components/wave/Wave";
+import Scroll from "./components/img/Scroll1.png";
+import ScrollToTop from "./components/ScrollToTop/scroll";
 import Footer from "./components/footer/Footer";
 import { Route, Routes } from "react-router-dom";
+
 
 
 
@@ -23,6 +27,7 @@ function App() {
   
 
   return (
+    <>
     <div className="App">
      <Header/>
      <Wave/>
@@ -33,6 +38,13 @@ function App() {
      <Route path="/contact" element={<Contact />} />
      </Routes>
     </div>
+ 
+    <div className={Styles.scroll_container}>
+     <ScrollToTop
+     img={Scroll}
+     />
+  </div>
+  </>
   );
 }
 

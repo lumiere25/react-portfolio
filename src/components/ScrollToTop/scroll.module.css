@@ -1,0 +1,13 @@
+
+/* .scroll_container {
+ position: fixed;
+} */
+
+.scroll_img {
+  position: fixed;
+  left: 90%;
+  z-index: 997;
+  bottom: 20px;
+  height: 90px;
+  width: 90px;
+}

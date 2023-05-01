@@ -5,6 +5,7 @@
 }
 
 header {
+  position: static;
   border: 3px solid rgb(50, 17, 141);
   background-color: rgb(111, 36, 181);
 }

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from "react-router-dom";
 
 import styles from "../components/Gallery/gallery.module.css";
@@ -14,6 +14,7 @@ import back from "../components/img/back.png";
 
 
 const About = () => {
+ 
   return (
     <>
     <div className={styles.about_container}>

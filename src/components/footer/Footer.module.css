@@ -1,18 +1,29 @@
- .footer_container {
-position:fixed;
-bottom: 0;
-width: 100%;
-background-color: blueviolet;
-z-index: 999;
-
+.footer_container {
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(60, 21, 157);
+  height: 25%;
+  width: 100%; 
+  z-index: 996; 
 }
 
- .footer {
+ .footer_content {
+ 
   color: #fff;
-  height: 40px;
   justify-content: center;
   align-items: center;
   font-size: 16px;
-  padding: 25px 0;
+
+  /* padding: 25px 0; */
  
 }  
+
+.social img {
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+}
+
+
+
+
