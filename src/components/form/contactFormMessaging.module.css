@@ -1,11 +1,12 @@
+
+
 .form_container {
   position: relative;
-  border: 2px solid rgb(255, 255, 255);
+  margin-top: 10%;
   border-radius: 15px;
   margin-right: 40%;
   padding: 20px 10px;
   width: 98%;
-
 }
 
 .info {
@@ -17,31 +18,31 @@
   display: flex;
   border-radius: 8px;
   flex-direction: column;
-  padding: 50px 25px;
-  width: 40%; 
+  padding: 40px 15px;
+  width: 35%; 
   align-items: center;
   margin: 40px;
   margin-bottom: 140px;
-  margin-left: 50%;
-  border: 2px solid rgb(218, 160, 202);
-  background: linear-gradient( to right, rgb(210, 160, 202), rgb(34, 135, 172));
+  margin-left: 55%;
+  border: 3px solid rgb(54, 15, 99);
+  /* background: linear-gradient( to right, rgb(126, 35, 50), rgb(115, 33, 47)); */
  }
 
 
  .text_name {
-   color:rgb(75, 54, 54);
+   color:rgb(51, 7, 48);
    font-size: 17px;
    margin-bottom: 2px;
  }
 
  .text_email {
-  color: rgb(75, 54, 54);
+  color: rgb(51, 7, 48);
   font-size: 17px;
   margin-bottom: 2px;
 
  }
  .text_info {
-   color: rgb(75, 54, 54);
+   color: rgb(51, 7, 48);
    margin-top: 18px;
    font-size: 17px;
  }
@@ -60,16 +61,16 @@
  }
 
  .message {
-   color: rgb(75, 54, 54);
+   color: rgb(51, 7, 48);
    margin-top: 19px;
    font-size: 17px;
  }
 
 
  .submit-button {
-   border: 2px solid rgb(110, 83, 143);
+   border: 2px solid rgb(51, 7, 48);
    border-radius: 8px;
-   background-color: rgb(208, 164, 214);
+   background-color: rgb(222, 129, 188);
    padding: 10px 19px;
    margin-top: 20px;
    width: 26%;
@@ -82,12 +83,16 @@
  }
 
  .submit {
-   color: rgb(92, 56, 56);
+   color: rgb(242, 231, 240);
   font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
    
  }
 
+ .submit_text {
+   font-family: "crimson-text" serif;
+   color:rgb(53, 12, 48);
+ }
 
 .success {
   color: green;

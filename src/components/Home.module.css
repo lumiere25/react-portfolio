@@ -26,6 +26,26 @@ body {
   margin-left: 50%;
 }
 
+.main_container_left h4 {
+  font-family: "Crimson Text", serif;
+  color:rgb(88, 26, 98);
+}
+
+
+.blocks_img {
+  position: absolute;
+  left: 19%;
+  height: 5%;
+  width: 8%;
+
+ 
+}
+
+.main_container_left h1 {
+  font-family: "Crimson Text", serif;
+  color:rgb(88, 26, 98);
+  border-bottom: 2px solid purple;
+}
 .main_container_left p {
  font-family: 'Crimson Text', serif;
  font-size: 19px;
@@ -84,7 +104,7 @@ left: 65%;
 .blog_info p {
   font-family: 'Crimson Text', serif;
   position: absolute;
-  top: 140%;
+  top: 130%;
   border: 3px solid rgb(17, 17, 87);
   font-size: 22px;
   margin-left: 17%;
@@ -94,7 +114,7 @@ left: 65%;
 
 .p_text i {
   position: absolute;
-  top: 140%;
+  top: 130%;
   left: 25%;
   font-size: 260%;
   color: rgb(17, 17, 87);
@@ -188,16 +208,17 @@ left: 65%;
   padding: 20px 10px ;
   position: absolute;  
   left: 0%;
-  top: 293%;
+  top: 288%;
   background-color: rgb(220, 209, 87);
 }
 
-.btn_contact {
+button {
   padding: 10px 10px;
   border: 2px solid red;
   border-radius: 12px;
   background-color: blueviolet;
   color:aliceblue;
+  cursor: pointer;
 }
 
 .mail_us h2 {

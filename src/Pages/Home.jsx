@@ -2,9 +2,13 @@ import React from 'react'
 import Styles from "../components/Home.module.css";
 import Style from "../components/Services/services.module.css";
 import Services from "../components/Services/services";
+import Extra from "../components/extra/extra";
 import ServiceDescription from '../components/Services/serviceDescription';
 import { Link } from "react-router-dom";
+
+import Kindy from "../components/img/kindy.jpg";
 import woman from "../components/img/woman.png";
+import blocks from "../components/img/blocks.png";
 import desk from "../components/img/desk2.png";
 import eclipse from "../components/img/Ellipse.png";
 import newEclipse from "../components/img/Ellipsered.png";
@@ -26,7 +30,10 @@ const Home = () => {
     <div className={Styles.container}></div>
      <div className={Styles.main_container}>
      <div className={Styles.main_container_left}>
-     <h4>#Find your passion</h4>
+     <h4>#Find Their passion</h4>
+     <div className={ Styles.blocks_container}>
+     <img className={Styles.blocks_img} src={blocks} alt="blocks"/>
+     </div>
      <h1>Join us and start Today!</h1>
      <p>
       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, temporibus. Quisquam atque aliquam eos aspernatur sit voluptatum, repellat ipsam laudantium?
@@ -82,7 +89,7 @@ const Home = () => {
       <div className={Styles.mail_us} >
        <h2>Contact Us Today:</h2>
        <Link to="/contact">
-       <button className={Styles.btn_contact}>Visit our Contact Page</button>
+       <button>Visit our Contact Page</button>
        </Link>
       </div>
      </div>
@@ -115,7 +122,17 @@ const Home = () => {
      
      />
      </div>
-    </div>
+     <div className={Styles.extra_container}>
+     <Extra 
+     img={Kindy}
+     desc="At Lakes Entrance Preschool, the teaching team works together to provide support, assistance and encouragement so the children gain the most benefit from their time at preschool.
+
+     We aim to provide a fun and safe learning environment, to provide learning through play, to promote the values of sharing, taking turns, good manners, and respect and awareness of others, and to encourage the children to be as independent as possible."
+     
+     />
+     
+     </div>
+  </div>
   </>
   )
 }

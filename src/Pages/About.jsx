@@ -18,8 +18,8 @@ const About = () => {
   return (
     <>
     <div className={styles.about_container}>
-   <h1>What We Do</h1>  
-   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ipsam, velit adipisci eos ullam veritatis, dolorum quidem aut doloribus vel hic laudantium ratione amet officiis odit unde sunt deserunt recusandae.</p>
+   <h1>How We Go About Our Day</h1>  
+   <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ipsam, velit"</p>
    </div>
    <div className={styles.backContainer}>
    <Link to="/home">
@@ -30,27 +30,27 @@ const About = () => {
    <div className={styles.project_grid}>
     <Gallery
     img={interactive}
-    text="Play, explore, Have fun and learn! This is our motto, and we believe will be your child's motto too!"
+    text="Learn"
     />
     <Gallery
     img={butterfly}
-    text="Something for everyone, connecting people together, one moment at a time."
+    text="Create"
     />
     <Gallery
     img={showtime}
-    text="Kids will get their creative spark and showcase their creations on Show Your Spark days."
+    text="Showcase"
     />
     <Gallery
     img={creative}
-    text="Something for everyone, connecting people together, one moment at a time."
+    text="Play"
     />
     <Gallery
     img={paint}
-    text="Something for everyone, connecting people together, one moment at a time."
+    text="Dive into Imagination"
     />
     <Gallery
     img={reading}
-    text="Something for everyone, connecting people together, one moment at a time."
+    text="Make Friends"
     />
 </div>
 </>

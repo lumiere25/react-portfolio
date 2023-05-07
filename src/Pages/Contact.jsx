@@ -104,7 +104,7 @@ const options = [
    onClick={() => {
      validateForm()
      setIsSubmitted(true)}}>
-   <div>
+   <div className={Styles.submit_text}>
    Submit
    </div>
    </button>  

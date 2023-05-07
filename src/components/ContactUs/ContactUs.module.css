@@ -1,44 +1,55 @@
 .contactus_container {
-  border: 2px solid rgb(15, 15, 144);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid rgb(54, 15, 99);
   border-radius: 10px;
-  background-color: rgb(55, 122, 181);
+  background-color:  rgb(213, 150, 197);
+  padding: 50px 10px;
   height: 110%;
   width: 40%;
   float: left;
-  margin-left: 90px;
-  margin-top: 70px;
+  margin-left: 16%;
+  margin-top: 40px;
 }
 
 .contactus_container p {
   text-align: center;
+  font-family: "crimson-text" serif;
   font-size: 18px;
-  color: rgb(239, 239, 239);
+  color: rgb(45, 6, 49);
 }
 
-.contactus_container h3 {
-  text-align: center;
-  padding: 5px;
-  color: rgb(100, 48, 48);
+
+
+.contact_infos a:visited {
+ color: #230246;
 }
 
 .contact_heading {
  text-align: center;
+ font-family: 'Crimson Text', serif;
+ border-bottom: 2px solid purple;
  font-size: 28px;
- color: rgb(239, 239, 239);
+ color: rgb(106, 21, 143);
 
 }
 
-.contactus_container_2 {
-  background-color: rgb(37, 91, 137);
+/* .contactus_container_2 {
+ 
   border-radius: 8px;
-  width: 70%;
-  margin-left: 15%;
-}
+  width: 50%;
+  margin-left: 25%;
+} */
 
 .contactus_container_2 p {
-  font-size: 18px;
-  text-align: center;
-  color: #fff;
+  display: inline-block;
+  font-family: 'Crimson Text', serif;
+  margin-left: 6%;
+  margin-top: 17px;
+  font-size: 32px;
+  color:rgb(54, 15, 97);
+  border-bottom: 2px solid purple;
 }
 
 

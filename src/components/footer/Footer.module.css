@@ -1,18 +1,22 @@
-.footer_container {
-  position: fixed;
-  bottom: 0;
-  background-color: rgb(60, 21, 157);
-  height: 25%;
-  width: 100%; 
-  z-index: 996; 
-}
+/* .footer_container {
 
- .footer_content {
- 
+  height: 25%;
+
+  z-index: 996; 
+} */
+
+ .footer {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25%;
+  background-color: rgb(60, 21, 157);
   color: #fff;
+  width: 100%; 
+  padding: 20px;
   justify-content: center;
   align-items: center;
   font-size: 16px;
+  z-index: 996; 
 
   /* padding: 25px 0; */
  

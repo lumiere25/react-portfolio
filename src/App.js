@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import './App.css';
-import Styles from "./components/ScrollToTop/scroll.module.css";
+import Style from  './App.css';
+
 // import "./LandingPage/Home.module.css";
 // import Spinner from "./components/loadingSpinner/Spinner";
 import Header from "./components/navigation/Header";
@@ -8,8 +8,6 @@ import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Wave from "./components/wave/Wave";
-import Scroll from "./components/img/Scroll1.png";
-import ScrollToTop from "./components/ScrollToTop/scroll";
 import Footer from "./components/footer/Footer";
 import { Route, Routes } from "react-router-dom";
 
@@ -19,6 +17,9 @@ import { Route, Routes } from "react-router-dom";
 
 function App() {
 
+  const toTop = () => {
+    window.scrollTo({top: 0, behavior: 'smooth'});
+    }
   // const [ isLoading, setIsLoading ] = useState(false);
 
   // if(setIsLoading) {
@@ -31,19 +32,17 @@ function App() {
     <div className="App">
      <Header/>
      <Wave/>
-     <Footer/>
-     <Routes>
+   <Routes>
      <Route path="/home" element={<Home />} />
      <Route path="/about" element={<About />} />
      <Route path="/contact" element={<Contact />} />
-     </Routes>
-    </div>
- 
-    <div className={Styles.scroll_container}>
-     <ScrollToTop
-     img={Scroll}
-     />
+  </Routes> 
+      <div>
+      <button onClick={toTop} id="scroll_button">Scroll To Top</button>
+      </div>
+      <Footer/>
   </div>
+
   </>
   );
 }

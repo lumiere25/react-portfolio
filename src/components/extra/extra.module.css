@@ -1,0 +1,32 @@
+
+.kindy_image {
+  border: 7px solid rgb(175, 14, 14);
+  position: relative;
+  top: -10%;
+  left: 30%;
+  width: 94%;
+}
+
+.kindy_image_container {
+  position: relative;
+
+}
+
+.kindy_image_container p {
+  background-color: rgb(193, 41, 41);
+  border: 7px solid rgb(175, 14, 14);
+ font-family:'Times New Roman', Times, serif;
+ font-size: 20px;
+  color: #fff;
+  position: absolute;
+  left: 110%;
+  margin:0;
+  transform: translate(-40%, -50%);
+  padding: 12% 5%;
+  width: 52%;
+  z-index: 2;
+}
+
+.kindy_desc {
+
+}

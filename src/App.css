@@ -1,9 +1,30 @@
 .App {
   text-align: center;
-  height: 100vh;
+  min-height: 100vh; 
   display: flex;
-  flex-direction: column;
+  flex-direction: column;  
 }
+
+ #scroll_button {
+  position: fixed;
+  left: 90%;
+  z-index: 997;
+  bottom: 20px;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  background-color: rgb(211, 14, 14);
+  color: #fff;
+  border: 5px solid rgb(9, 9, 136);
+  cursor: pointer;
+}
+
+
+
+/* .page_container {
+  text-align: center;
+  min-height: 100vh;
+} */
 
 /* .App-logo {
   height: 40vmin;
