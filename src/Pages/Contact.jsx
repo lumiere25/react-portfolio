@@ -49,13 +49,13 @@ const options = [
       <div className={Styles.text_name}>
        Name
        </div>
-      <input type="text" onChange={(e) => setName(e.target.value)} />
+      <input className={Styles.input_fname} type="text" placeholder="Your Name" onChange={(e) => setName(e.target.value)} />
       </label>
       <label className={Styles.form_label_2}>
       <div className={Styles.text_email}>
        Email
        </div>
-       <input type="text" onChange={(e) => {
+       <input className={Styles.input_email_two}  type="text" placeholder="Your Email" onChange={(e) => {
          setEmail(e.target.value);
        }}
        />
@@ -92,7 +92,7 @@ const options = [
    Message
    </div>
    </label>
-   <textarea className={Styles.text_info_message}
+   <textarea className={Styles.text_info_message} placeholder="Message"
     name="Message"
     cols="40"
     rows="5"

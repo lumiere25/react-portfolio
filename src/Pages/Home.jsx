@@ -36,7 +36,8 @@ const Home = () => {
      </div>
      <h1>Join us and start Today!</h1>
      <p>
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, temporibus. Quisquam atque aliquam eos aspernatur sit voluptatum, repellat ipsam laudantium?
+      Welcome to Kindy Steps Preschool! Children are at the heart of all that we do. We understand the importance of early learning.
+      Here at Kindy Steps, we seek to help your child reach their fullest potential, we make every moment count. Start your journey with us!
      </p>
      <div className={Styles.btn}>
      <Link to="/about" className={Styles.btn_lg}>Find out more.</Link>
@@ -53,20 +54,21 @@ const Home = () => {
   </div>
   { /* blogs section */ }
 
+
   <div className={Styles.blog_info}>
      <img className={Styles.ecliptic}src={eclipse} alt="" />
      <div className={Styles.p_text}>
      <i className="fas fa-quote-left"></i>
      <p>Coming here was the greatest descision I have made to this day"</p>
      </div>
-     
+  
      <div className={Styles.ecliptic_container}>
      <img className={Styles.ecliptic_red} src={newEclipse} alt="ecliptic"/>
      </div>
      <div className={Styles.girl_container}>
      <img className={Styles.girlie} src={girl} alt="girl"/>
      </div>
-
+     
 
      { /* Website Description */}
      <div className={Styles.desc_container}>
@@ -108,7 +110,7 @@ const Home = () => {
      />
      <Services 
      img={Clock}
-     description="We are open 5 days a week from 9:am to 7:30pm"
+     description="We are open 5 days a week from 9.am to 6.00pm"
      
      />
      <Services 

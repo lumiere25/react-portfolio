@@ -1,3 +1,15 @@
+
+.kiddy {
+  float: right;
+  border: 3px solid rgb(111, 32, 143);
+  border-radius: 10%;
+  position: absolute;
+  bottom: -12%;
+  left: 62%;
+  height: 50%;
+  width: 25%;
+}
+
 .sign_container {
   width: 36%;
   margin: auto;
@@ -7,6 +19,7 @@
 .sign_container h1 {
   font-family: "Crimson Text", serif;
   color:rgb(68, 11, 122);
+  margin-left: 5%;
   border-bottom: 2px solid purple;
 }
 
@@ -15,7 +28,7 @@
 
 .signup_container {
   position: relative;
-  margin-top: 10%;
+  margin-top: 2%;
   border-radius: 15px;
   margin-right: 40%;
   padding: 20px 10px;
@@ -36,7 +49,7 @@
   align-items: center;
   margin: 40px;
   margin-bottom: 140px;
-  margin-left: 34%;
+  margin-left: 28%;
   border: 3px solid rgb(236, 212, 231);
   background-color:rgb(75, 35, 113);
   /* background: linear-gradient( to right, rgb(126, 35, 50), rgb(115, 33, 47)); */
@@ -131,6 +144,8 @@
  .submit_text {
    font-family: "crimson-text" serif;
    color:rgb(53, 12, 48);
+   font-size: 16px;
+   font-weight: bold;
  }
 
 .success {

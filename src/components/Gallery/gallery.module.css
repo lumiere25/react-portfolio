@@ -8,7 +8,7 @@
 }
 
 .about_container {
-  margin-top: 10%;
+  margin-top: 4%;
 }
 
 .about_container h1 {
@@ -48,10 +48,14 @@
 
 .about_container p {
   font-family: 'Crimson Text', serif;
-  font-size: 18px;
+  font-size: 21px;
+  color: rgb(107, 5, 75);
   width: 40%;
   margin: auto;
-  
+  border: 2px solid red;
+  border-radius: 10%;
+  background-color: rgb(194, 152, 201);
+  padding: 10px 10px;
   border-bottom: 1px solid rgb(42, 10, 158);
 }
 

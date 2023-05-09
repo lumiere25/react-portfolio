@@ -18,8 +18,8 @@ const About = () => {
   return (
     <>
     <div className={styles.about_container}>
-   <h1>How We Go About Our Day</h1>  
-   <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ipsam, velit"</p>
+   <h1>Our Vision</h1>  
+   <p>"Our preschool provides a safe and nurturing environment for young children to learn, play, and grow. Our experienced teachers are dedicated to helping each child develop their social, emotional, cognitive, and physical skills through a variety of age-appropriate activities and educational programs. We encourage curiosity, creativity, and a love of learning through play-based exploration, hands-on experiences, and interactive lessons. "</p>
    </div>
    <div className={styles.backContainer}>
    <Link to="/">

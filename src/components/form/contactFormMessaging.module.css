@@ -2,7 +2,7 @@
 
 .form_container {
   position: relative;
-  margin-top: 10%;
+  margin-top: 3%;
   border-radius: 15px;
   margin-right: 40%;
   padding: 20px 10px;
@@ -24,25 +24,42 @@
   margin: 40px;
   margin-bottom: 140px;
   margin-left: 55%;
-  border: 3px solid rgb(54, 15, 99);
+  border: 3px solid rgb(236, 212, 231);
+  background-color:rgb(75, 35, 113);
   /* background: linear-gradient( to right, rgb(126, 35, 50), rgb(115, 33, 47)); */
+ }
+
+ .input_fname {
+   border: 2px solid rgb(119, 27, 123);
+   border-radius: 6px;
+   
+ }
+
+ .input_email_two {
+  border: 2px solid rgb(119, 27, 123);
+  border-radius: 6px;
+ }
+
+ .text_info_message {
+  border: 2px solid rgb(119, 27, 123);
+  border-radius: 8px;
  }
 
 
  .text_name {
-   color:rgb(51, 7, 48);
+   color:rgb(244, 230, 243);
    font-size: 17px;
    margin-bottom: 2px;
  }
 
  .text_email {
-  color: rgb(51, 7, 48);
+  color: rgb(244, 230, 243);
   font-size: 17px;
   margin-bottom: 2px;
 
  }
  .text_info {
-   color: rgb(51, 7, 48);
+   color: rgb(244, 230, 243);
    margin-top: 18px;
    font-size: 17px;
  }
@@ -61,7 +78,7 @@
  }
 
  .message {
-   color: rgb(51, 7, 48);
+   color: rgb(244, 230, 243);
    margin-top: 19px;
    font-size: 17px;
  }
@@ -91,6 +108,8 @@
 
  .submit_text {
    font-family: "crimson-text" serif;
+   font-size: 16px;
+   font-weight: bold;
    color:rgb(53, 12, 48);
  }
 

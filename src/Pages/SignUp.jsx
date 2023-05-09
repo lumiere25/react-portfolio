@@ -2,6 +2,7 @@ import { useState } from "react";
 import Styles from "../components/SignUp/SignUp.module.css";
 import ContactFormMessaging from "../components/form/ContactFormMessaging";
 import SignInfo from "../components/SignUp/SignInfo";
+import Kid from "../components/img/kid.jpg";
 // import SignInfo from "../components/SignUp/SignInfo";
 
 
@@ -38,7 +39,10 @@ const options = [
 
 
   return (
-
+ <>
+ <div className={Styles.kid_image}>
+ <img className={Styles.kiddy} src={Kid} alt="kid" />
+ </div>
   <form className={Styles.signup_container}>
    <SignInfo/>
     <div className={Styles.signup_content}>
@@ -121,7 +125,7 @@ const options = [
    </button>  
    </div>  
 
-
+ 
  
  
   
@@ -140,6 +144,7 @@ const options = [
 }
 
 </form>
+</>
   )
 }
 

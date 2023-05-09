@@ -85,10 +85,11 @@ left: 65%;
   border: 2px solid rgb(183, 131, 231);
   border-radius: 22px;
   width: 8px;
-  padding: 10px 10px;
+  padding: 10px 15px;
   background-color: blueviolet;
   text-decoration: none;
-  color: rgb(37, 6, 114);
+  font-size: 17px;
+  color: rgb(216, 198, 230);
 }
 
 .btn_lg:hover {
@@ -104,7 +105,7 @@ left: 65%;
 .blog_info p {
   font-family: 'Crimson Text', serif;
   position: absolute;
-  top: 140%;
+  top: 145%;
   border: 3px solid rgb(17, 17, 87);
   font-size: 22px;
   margin-left: 17%;
@@ -114,7 +115,7 @@ left: 65%;
 
 .p_text i {
   position: absolute;
-  top: 140%;
+  top: 145%;
   left: 25%;
   font-size: 260%;
   color: rgb(17, 17, 87);
@@ -208,7 +209,7 @@ left: 65%;
   padding: 20px 10px ;
   position: absolute;  
   left: 0%;
-  top: 288%;
+  top: 296%;
   background-color: rgb(220, 209, 87);
 }
 
