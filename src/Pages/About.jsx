@@ -22,7 +22,7 @@ const About = () => {
    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ipsam, velit"</p>
    </div>
    <div className={styles.backContainer}>
-   <Link to="/home">
+   <Link to="/">
    <img className={styles.arrow} src={back} alt=""/>
    </Link>
    </div>

@@ -96,7 +96,7 @@ const Home = () => {
 
      <div className={Styles.wrapper}>
      <ServiceDescription 
-     desc="Our Services That We Offer To You"
+     desc="Our Services"
      />   
      </div>
     

@@ -104,7 +104,7 @@ left: 65%;
 .blog_info p {
   font-family: 'Crimson Text', serif;
   position: absolute;
-  top: 130%;
+  top: 140%;
   border: 3px solid rgb(17, 17, 87);
   font-size: 22px;
   margin-left: 17%;
@@ -114,7 +114,7 @@ left: 65%;
 
 .p_text i {
   position: absolute;
-  top: 130%;
+  top: 140%;
   left: 25%;
   font-size: 260%;
   color: rgb(17, 17, 87);
