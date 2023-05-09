@@ -38,26 +38,52 @@
   margin-bottom: 140px;
   margin-left: 34%;
   border: 3px solid rgb(236, 212, 231);
+  background-color:rgb(75, 35, 113);
   /* background: linear-gradient( to right, rgb(126, 35, 50), rgb(115, 33, 47)); */
+ }
+
+.input_name {
+  border: 2px solid rgb(168, 98, 110);
+  border-radius: 6px;
+}
+
+.input_email {
+  border: 2px solid rgb(168, 98, 110);
+  border-radius: 6px;
+}
+
+.input_password {
+  border: 2px solid rgb(168, 98, 110);
+  border-radius: 6px;
+}
+
+.text_info_message {
+  border: 2px solid rgb(168, 98, 110);
+  border-radius: 8px;
  }
 
 
  .text_name {
-   color:rgb(51, 7, 48);
+  color: rgb(224, 184, 222);
    font-size: 17px;
    margin-bottom: 2px;
  }
 
  .text_email {
-  color: rgb(51, 7, 48);
+  color: rgb(224, 184, 222);
   font-size: 17px;
   margin-bottom: 2px;
 
  }
  .text_info {
-   color: rgb(51, 7, 48);
+  color: rgb(224, 184, 222);
    margin-top: 18px;
    font-size: 17px;
+ }
+
+ .text_password {
+  color: rgb(224, 184, 222);
+  margin-top: 10px;
  }
 
  .select {
@@ -74,7 +100,7 @@
  }
 
  .message {
-   color: rgb(51, 7, 48);
+   color: rgb(224, 184, 222);
    margin-top: 19px;
    font-size: 17px;
  }

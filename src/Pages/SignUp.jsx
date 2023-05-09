@@ -46,13 +46,13 @@ const options = [
       <div className={Styles.text_name}>
        Name
        </div>
-      <input type="text" onChange={(e) => setName(e.target.value)} />
+      <input className={Styles.input_name} type="text" placeholder="First Name" onChange={(e) => setName(e.target.value)} />
       </label>
       <label className={Styles.form_label_two}>
       <div className={Styles.text_email}>
        Email
        </div>
-       <input type="text" onChange={(e) => {
+       <input className={Styles.input_email} type="text" placeholder="Your Email" onChange={(e) => {
          setEmail(e.target.value);
        }}
        />
@@ -62,13 +62,13 @@ const options = [
       <div className={Styles.text_password}>
        Password:
        </div>
-      <input type="text" onChange={(e) => setPassword(e.target.value)} />
+      <input className={Styles.input_password} type="text" placeholder="Your Password" onChange={(e) => setPassword(e.target.value)} />
       </label>
       <label className={Styles.form_label_four}>
       <div className={Styles.text_password}>
        Reconfirm Password:
        </div>
-       <input type="text" onChange={(e) => {
+       <input  className={Styles.input_password} type="text" placeholder="Reconfirm your Password..." onChange={(e) => {
          setPassword(e.target.value);
        }}
        />
@@ -103,7 +103,7 @@ const options = [
    Message
    </div>
    </label>
-   <textarea className={Styles.text_info_message}
+   <textarea className={Styles.text_info_message} placeholder="Enter your Message"
     name="Message"
     cols="40"
     rows="5"
