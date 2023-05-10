@@ -127,9 +127,7 @@ const Home = () => {
      <div className={Styles.extra_container}>
      <Extra 
      img={Kindy}
-     desc="At Lakes Entrance Preschool, the teaching team works together to provide support, assistance and encouragement so the children gain the most benefit from their time at preschool.
-
-     We aim to provide a fun and safe learning environment, to provide learning through play, to promote the values of sharing, taking turns, good manners, and respect and awareness of others, and to encourage the children to be as independent as possible."
+     desc="The child in the image is engaged in a creative activity, which reflects our emphasis on promoting children's holistic development through a range of hands-on learning experiences. The teacher is overlooking the child, demonstrating our belief in the importance of personalized attention and guidance to support each child's unique needs and abilities."
      
      />
      

@@ -1,4 +1,6 @@
+import React from "react";
 import styles from "./ContactUs.module.css";
+
 function ContactUs  ()  {
   return (
     <>
@@ -7,7 +9,7 @@ function ContactUs  ()  {
       </div>
       <div className={styles.contactus_container}>
       <h1 className={styles.contact_heading}>Contact Us</h1>
-      
+
       <div className={styles.contact_infos}>
      <p>We look forward to hearing from you.</p>
     <p>Email:<a href="mailto: kindysteps@gmail.org">kindysteps@gmail.org</a></p>

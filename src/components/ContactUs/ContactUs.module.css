@@ -26,6 +26,14 @@
  color: #230246;
 }
 
+.contact_infos a {
+ text-decoration: none;
+ padding-left: 5px;
+ color: rgb(71, 6, 71);
+ font-weight: bold;
+}
+
+
 .contact_heading {
  text-align: center;
  font-family: 'Crimson Text', serif;

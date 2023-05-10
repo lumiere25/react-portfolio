@@ -1,6 +1,6 @@
 .logo {
   height: 90px;
-  width: 170px;
+  width: 174px;
   margin-top: 20px;
 }
 
@@ -10,12 +10,12 @@ header {
   background-color: rgb(111, 36, 181);
 }
 
-ul  {
+/* ul  {
   display: flex;
   align-items: center;
   width: 10%;
   margin-left: auto; 
-}
+} */
 
 li {
   display: flex;
@@ -30,15 +30,22 @@ ul {
 }
 
 
-.link {
-  font-family: 'Crimson Text', serif;
-  margin-top: 30px;
+ .links {
+  font-family: 'Crimson Text', serif; 
+  margin-top: 35px;
   padding: 15px;
   text-decoration: none;
-  font-size: 22px;
-  color:rgb(37, 6, 114);
-} 
+  font-size: 22px; 
+  color:rgb(21, 2, 70);
 
-.link:hover {
+}  
+
+  /* Navlink .activeLink {
+  color: rgb(212, 85, 11);
+  border-bottom: 2px solid rgb(212, 85, 11);
+}  */
+
+ .links:hover {
  color: rgb(212, 85, 11);
-} 
+ border-bottom: 2px solid rgb(212, 85, 11);
+}  
