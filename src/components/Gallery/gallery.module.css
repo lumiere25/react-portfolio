@@ -97,3 +97,9 @@ background-color: antiquewhite;
 border: 4px solid rgb(189, 65, 191);
 border-radius: 8px;
 }
+
+/* @media all and(max-width: 65em)  {
+  .about_container  {
+    font-size: 14px;
+  }
+} */

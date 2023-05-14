@@ -8,11 +8,11 @@
  .footer {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 25%;
+  margin-top: 33%;
   background-color: rgb(60, 21, 157);
   color: #fff;
   width: 100%; 
-  padding: 20px;
+  padding: 0;
   justify-content: center;
   align-items: center;
   font-size: 16px;
@@ -25,9 +25,45 @@
 .social img {
   height: 40px;
   width: 40px;
-  margin: 5px;
+  margin: 6px;
+  margin-top: 14px;
 }
 
 
+/* iPad/tablets */ 
+
+@media all and (max-width: 62em) {
+  .footer {
+    padding:0;
+  }
+}
 
 
+@media all and (max-width: 62em) {
+  .social img {
+    margin-top: 20px;
+  }
+}
+
+
+@media all and (max-width: 86em) {
+  .social img {
+    margin-top: 20px;
+  }
+}
+
+
+@media all and (max-width: 86em) {
+  .footer {
+    padding:0;
+    margin-top:51%;
+  }
+}
+
+
+@media all and (max-width: 76em) {
+  .footer {
+    padding:0;
+    margin-top:51%;
+  }
+}

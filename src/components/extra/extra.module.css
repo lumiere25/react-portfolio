@@ -27,6 +27,30 @@
   z-index: 2;
 }
 
-.kindy_desc {
+/* iPad/tablets */
 
+
+@media all and (max-width: 62em)  {
+  .kindy_image {
+    margin-top: 24%;
+    
+  }
 }
+
+
+
+@media all and (max-width: 76em)  {
+  .kindy_image {
+    margin-top: 50%;
+    
+  }
+}
+
+
+@media all and (max-width: 62em)  {
+  .kindy_image_container p {
+   font-size: 17px;
+    
+  }
+}
+

@@ -49,3 +49,57 @@ ul {
  color: rgb(212, 85, 11);
  border-bottom: 2px solid rgb(212, 85, 11);
 }  
+
+/* Media Queries - Mobile First - tablets */
+
+/* Header*/
+
+
+@media all and (max-width: 52em) {
+  .logo {
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    width: 140px;
+    
+  }
+}
+
+
+@media all and (max-width: 52em) {
+  li  {
+   display: flex;
+   flex-direction: column;
+   
+  }
+}
+
+@media all and (max-width: 52em) {
+   .links {
+   font-size: 19px;
+   margin-top: 5px;
+   margin-right: 60px; 
+
+  }
+}
+
+@media all and (max-width: 58em) {
+  .links {
+  font-size: 18px;
+ }
+}
+
+/* for large screens */
+
+@media all and (max-width: 80em) {
+  .links {
+  font-size: 18px;
+ }
+}
+
+
+
+/* iPad/tablet */
+
+
+
