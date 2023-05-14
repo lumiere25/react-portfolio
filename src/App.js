@@ -8,6 +8,7 @@ import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import SignUp from "./Pages/SignUp";
+import FourOhFour from "./Pages/FourOhFour";
 
 import Wave from "./components/wave/Wave";
 import Footer from "./components/footer/Footer";
@@ -39,6 +40,7 @@ function App() {
      <Route path="/about" element={<About />} />
      <Route path="/contact" element={<Contact />} />
      <Route path="/signup" element={<SignUp />} />
+     <Route path="/*" element={<FourOhFour />} />
   </Routes> 
       <div>
       <button onClick={toTop} id="scroll_button">Scroll To Top</button>
