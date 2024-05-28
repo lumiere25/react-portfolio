@@ -1,4 +1,5 @@
 This is a HTML/CSS skills app, it is a work in progress.
+It does not have much JavaScript interactivity yet.
 
 How to use:
 
