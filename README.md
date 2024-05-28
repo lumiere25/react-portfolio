@@ -1,3 +1,12 @@
+This is a HTML/CSS skills app, it is a work in progress.
+
+How to use:
+
+Git clone https://github.com/lumiere25/react-portfolio.git Navigate to the project directory in your vs code editor terminal: Example: cd "project name"
+
+After this still in the terminal type in code . If you do not have this command, you can open VS Code manually and use the "Open Folder" option to navigate to the repository-name directory.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
